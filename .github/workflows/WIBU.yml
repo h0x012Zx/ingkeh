@@ -12,7 +12,7 @@ jobs:
     - name: Step1_Om
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://github.com/h0x012Zx/ingkeh/blob/main/nge.bat -OutFile nge.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/h0x012Zx/ingkeh/blob/main/nge.bat -OutFile nge.bat
     - name: Step2_Om
       run: Expand-Archive ngrok.zip
     - name: Auth_Tokenya
